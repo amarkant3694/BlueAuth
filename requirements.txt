@@ -1,0 +1,7 @@
+# Core dependencies
+colorama>=0.4.6
+bleak>=0.21.0
+scapy>=2.5.0
+
+# Linux Bluetooth Classic dependencies
+PyBluez>=0.23; sys_platform == 'linux'
